@@ -1,0 +1,21 @@
+2025-03-11 18:42:44,794 --INFO--log--restartedMain--Starting service [Tomcat]--
+2025-03-11 18:42:44,797 --INFO--log--restartedMain--Starting Servlet engine: [Apache Tomcat/10.1.36]--
+2025-03-11 18:42:44,859 --INFO--log--restartedMain--Initializing Spring embedded WebApplicationContext--
+2025-03-11 18:42:44,859 --INFO--prepareWebApplicationContext--restartedMain--Root WebApplicationContext: initialization completed in 1396 ms--
+2025-03-11 18:42:45,117 --INFO--logPersistenceUnitInformation--restartedMain--HHH000204: Processing PersistenceUnitInfo [name: default]--
+2025-03-11 18:42:45,126 --INFO--initiateService--restartedMain--HHH000026: Second-level cache disabled--
+2025-03-11 18:42:45,154 --INFO--addTransformer--restartedMain--No LoadTimeWeaver setup: ignoring JPA class transformer--
+2025-03-11 18:42:45,158 --INFO--getConnection--restartedMain--HikariPool-2 - Starting...--
+2025-03-11 18:42:45,191 --INFO--checkFailFast--restartedMain--HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ae30f50--
+2025-03-11 18:42:45,192 --INFO--getConnection--restartedMain--HikariPool-2 - Start completed.--
+2025-03-11 18:42:45,195 --INFO--initiateService--restartedMain--HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown--
+2025-03-11 18:42:45,402 --INFO--initiateService--restartedMain--HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)--
+2025-03-11 18:42:45,462 --INFO--buildNativeEntityManagerFactory--restartedMain--Initialized JPA EntityManagerFactory for persistence unit 'default'--
+2025-03-11 18:42:45,906 --WARN--openEntityManagerInViewInterceptor--restartedMain--spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning--

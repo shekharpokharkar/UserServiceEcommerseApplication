@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<configuration>
+	<property name="FILE_DIR" value="applicationLog" />
+	<property name="FILE_NAME" value="shekhar" />
+
+	<appender name="FileAppender"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${FILE_DIR}/${FILE_NAME}.log</file>
+
+		<encoder
+			class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d --%p--%M--%t--%m--%n</pattern>
+		</encoder>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<!-- Correct file naming pattern -->
+			<fileNamePattern>${FILE_DIR}/archived/${FILE_NAME}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+			<!-- Define max file size per log file -->
+			<maxFileSize>2KB</maxFileSize>
+
+			<!-- Keep logs for 30 days -->
+			<maxHistory>30</maxHistory>
+
+			<!-- Total log size limit -->
+			<totalSizeCap>100MB</totalSizeCap>
+		</rollingPolicy>
+	</appender>
+
+	<root level="INFO">
+		<appender-ref ref="FileAppender" />
+	</root>
+</configuration>
+
+
+
+
+

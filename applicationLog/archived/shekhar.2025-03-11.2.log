@@ -1,0 +1,17 @@
+2025-03-11 18:41:26,156 --log--RMI TCP Connection(11)-127.0.0.1--INFO--Initializing Spring DispatcherServlet 'dispatcherServlet'--
+2025-03-11 18:41:26,159 --initServletBean--RMI TCP Connection(11)-127.0.0.1--INFO--Initializing Servlet 'dispatcherServlet'--
+2025-03-11 18:41:26,163 --initServletBean--RMI TCP Connection(11)-127.0.0.1--INFO--Completed initialization in 3 ms--
+2025-03-11 18:42:43,087 --onApplicationEvent--File Watcher--INFO--Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)--
+2025-03-11 18:42:43,094 --shutDownGracefully--Thread-5--INFO--Commencing graceful shutdown. Waiting for active requests to complete--
+2025-03-11 18:42:43,096 --log--tomcat-shutdown--INFO--Pausing ProtocolHandler ["http-nio-8081"]--
+2025-03-11 18:42:43,218 --doShutdown--tomcat-shutdown--INFO--Graceful shutdown complete--
+2025-03-11 18:42:43,219 --log--Thread-5--INFO--Stopping ProtocolHandler ["http-nio-8081"]--
+2025-03-11 18:42:43,231 --destroy--Thread-5--INFO--Closing JPA EntityManagerFactory for persistence unit 'default'--
+2025-03-11 18:42:43,239 --close--Thread-5--INFO--HikariPool-1 - Shutdown initiated...--
+2025-03-11 18:42:43,268 --close--Thread-5--INFO--HikariPool-1 - Shutdown completed.--
+2025-03-11 18:42:43,459 --INFO--logStarting--restartedMain--Starting UserServiceApplication using Java 17.0.7 with PID 19332 (C:\Users\User\OneDrive\Desktop\Java Express\User-Service2\target\classes started by User in C:\Users\User\OneDrive\Desktop\Java Express\User-Service2)--
+2025-03-11 18:42:43,460 --INFO--logStartupProfileInfo--restartedMain--The following 1 profile is active: "dev"--
+2025-03-11 18:42:44,418 --INFO--registerRepositoriesIn--restartedMain--Bootstrapping Spring Data JPA repositories in DEFAULT mode.--
+2025-03-11 18:42:44,459 --INFO--registerRepositoriesIn--restartedMain--Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.--
+2025-03-11 18:42:44,792 --INFO--initialize--restartedMain--Tomcat initialized with port 8081 (http)--
+2025-03-11 18:42:44,793 --INFO--log--restartedMain--Initializing ProtocolHandler ["http-nio-8081"]--

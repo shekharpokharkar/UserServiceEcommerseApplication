@@ -1,0 +1,6 @@
+2025-03-11 18:42:47,080 --INFO--startServer--restartedMain--LiveReload server is running on port 35729--
+2025-03-11 18:42:47,108 --INFO--<init>--restartedMain--Exposing 14 endpoints beneath base path '/actuator'--
+2025-03-11 18:42:47,189 --INFO--log--restartedMain--Starting ProtocolHandler ["http-nio-8081"]--
+2025-03-11 18:42:47,195 --INFO--start--restartedMain--Tomcat started on port 8081 (http) with context path '/'--
+2025-03-11 18:42:47,234 --INFO--logStarted--restartedMain--Started UserServiceApplication in 3.837 seconds (process running for 96.044)--
+2025-03-11 18:42:47,239 --INFO--onApplicationEvent--restartedMain--Condition evaluation unchanged--

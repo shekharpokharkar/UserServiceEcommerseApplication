@@ -1,0 +1,21 @@
+2025-03-11 18:41:18,620 --addTransformer--restartedMain--INFO--No LoadTimeWeaver setup: ignoring JPA class transformer--
+2025-03-11 18:41:18,733 --getConnection--restartedMain--INFO--HikariPool-1 - Starting...--
+2025-03-11 18:41:19,676 --checkFailFast--restartedMain--INFO--HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1801a4c6--
+2025-03-11 18:41:19,679 --getConnection--restartedMain--INFO--HikariPool-1 - Start completed.--
+2025-03-11 18:41:19,826 --initiateService--restartedMain--INFO--HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown--
+2025-03-11 18:41:21,467 --initiateService--restartedMain--INFO--HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)--
+2025-03-11 18:41:21,590 --buildNativeEntityManagerFactory--restartedMain--INFO--Initialized JPA EntityManagerFactory for persistence unit 'default'--
+2025-03-11 18:41:22,235 --<clinit>--restartedMain--INFO--Hibernate is in classpath; If applicable, HQL parser will be used.--
+2025-03-11 18:41:23,427 --openEntityManagerInViewInterceptor--restartedMain--WARN--spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning--
+2025-03-11 18:41:25,253 --startServer--restartedMain--INFO--LiveReload server is running on port 35729--
+2025-03-11 18:41:25,273 --<init>--restartedMain--INFO--Exposing 14 endpoints beneath base path '/actuator'--
+2025-03-11 18:41:25,401 --log--restartedMain--INFO--Starting ProtocolHandler ["http-nio-8081"]--
+2025-03-11 18:41:25,474 --start--restartedMain--INFO--Tomcat started on port 8081 (http) with context path '/'--
+2025-03-11 18:41:25,501 --logStarted--restartedMain--INFO--Started UserServiceApplication in 13.0 seconds (process running for 14.311)--
